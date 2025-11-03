@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: [İsmail ÖZDEMİR]
+ * Ogrenci No: [250541109]
+ * Tarih: [3.11.2025]
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class OgrenciBilgi {
     public static void main(String[] args) {
         // Scanner objesi olusturun
-        
+        Scanner input = new Scanner ( System.in);
         
         // Degisken tanimlamalari
         // String ad, soyad;
@@ -42,9 +42,30 @@ public class OgrenciBilgi {
         
         
         // Bilgileri ekrana yazdirin
+        	  String ad =input.nextLine ();
+	  System.out.println(ad);
+	  System.out.print("Soyadınızı Girin");
+	  String soyad = input.nextLine ();
+	  System.out.println(soyad);
+	  System.out.print("Yasınız");
+	  int yas = input.nextInt();
+	  System.out.print("Ogrenci Numaranız:");
+	  int ogrNo =input.nextInt();
+	  System.out.printf("GPA ");
+	  double  GPA =input.nextDouble(); 
+	  }
+	  }
         System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
         
         // COZUMUNUZU BURAYA YAZIN
+    === OGRENCI BILGI SISTEMI===
+       Adınız Girin ismail
+         ismail
+         Soyadınızı Girin özdemir
+         özdemir
+         Yasınız 20
+          Ogrenci Numaranız: 250541109
+           GPA  4.80
         
         
         
